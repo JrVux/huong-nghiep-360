@@ -1,0 +1,26 @@
+[
+  {
+    "ma": "TH1",
+    "mon": ["Vật Lí", "Hóa học", "Sinh học", "Công nghệ nông nghiệp"],
+    "so_lop": 7,
+    "mo_ta": "Vật Lí, Hóa học, Sinh học, Công nghệ nông nghiệp. Kết hợp 4 môn bắt buộc: Toán, Văn, Tiếng Anh, Sử."
+  },
+  {
+    "ma": "TH2",
+    "mon": ["Tin học", "Hóa học", "Sinh học", "GDKT&PL"],
+    "so_lop": 7,
+    "mo_ta": "Tin học, Hóa học, Sinh học, GDKT&PL. Kết hợp 4 môn bắt buộc: Toán, Văn, Tiếng Anh, Sử."
+  },
+  {
+    "ma": "TH3",
+    "mon": ["Vật Lí", "Tin học", "Địa lí", "GDKT&PL"],
+    "so_lop": 6,
+    "mo_ta": "Vật Lí, Tin học, Địa lí, GDKT&PL. Kết hợp 4 môn bắt buộc: Toán, Văn, Tiếng Anh, Sử."
+  },
+  {
+    "ma": "TH4",
+    "mon": ["Vật Lí", "Hóa học", "Địa lí", "Công nghệ công nghiệp"],
+    "so_lop": 6,
+    "mo_ta": "Vật Lí, Hóa học, Địa lí, Công nghệ công nghiệp. Kết hợp 4 môn bắt buộc: Toán, Văn, Tiếng Anh, Sử."
+  }
+]

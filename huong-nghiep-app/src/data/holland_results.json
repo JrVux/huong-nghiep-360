@@ -1,0 +1,77 @@
+{
+  "khuyen_cao": "Kết quả trắc nghiệm Holland chỉ mang tính tham khảo, giúp bạn khám phá sở thích nghề nghiệp. Hãy kết hợp với nhiều nguồn thông tin khác để đưa ra quyết định phù hợp.",
+  "nhom": {
+    "R": {
+      "ten": "Realistic — Kỹ thuật / Thực hành",
+      "bieu_tuong": "🔧",
+      "mau_sac": "#e74c3c",
+      "mo_ta": "Bạn thích làm việc với đôi tay, máy móc và vật liệu cụ thể. Bạn thực tế, kiên nhẫn và thích thấy kết quả công việc rõ ràng.",
+      "dac_diem": ["Thực tế", "Khéo léo", "Kiên nhẫn", "Thích làm việc ngoài trời", "Giỏi sử dụng công cụ"],
+      "nghe_phu_hop_2026": ["Kỹ sư cơ khí/Điện tử", "Kỹ thuật viên IoT", "Kỹ sư vi mạch/Bán dẫn", "Kỹ thuật viên ô tô điện", "Kỹ sư robot", "Nông nghiệp công nghệ cao", "Phi công drone thương mại"],
+      "nganh_hoc": ["Kỹ thuật Cơ khí", "Kỹ thuật Điện - Điện tử", "Công nghệ Ô tô", "Nông nghiệp", "Kỹ thuật Xây dựng"],
+      "to_hop_goi_y": ["A00", "A01", "C01", "X04"]
+    },
+    "I": {
+      "ten": "Investigative — Nghiên cứu / Khám phá",
+      "bieu_tuong": "🔬",
+      "mau_sac": "#3498db",
+      "mo_ta": "Bạn tò mò, thích tìm hiểu bản chất sự việc và giải quyết các vấn đề phức tạp. Bạn thích phân tích, nghiên cứu và khám phá kiến thức mới.",
+      "dac_diem": ["Tò mò", "Phân tích logic", "Độc lập", "Ham học hỏi", "Tư duy phản biện"],
+      "nghe_phu_hop_2026": ["Nhà khoa học dữ liệu", "Kỹ sư AI/Machine Learning", "Nghiên cứu viên", "Bác sĩ", "Dược sĩ", "Nhà phân tích tài chính", "Chuyên gia an ninh mạng"],
+      "nganh_hoc": ["Khoa học Máy tính", "Trí tuệ Nhân tạo", "Khoa học Dữ liệu", "Y khoa", "Dược học", "Toán học ứng dụng"],
+      "to_hop_goi_y": ["A00", "A01", "B00", "D07", "X06"]
+    },
+    "A": {
+      "ten": "Artistic — Nghệ thuật / Sáng tạo",
+      "bieu_tuong": "🎨",
+      "mau_sac": "#9b59b6",
+      "mo_ta": "Bạn sáng tạo, giàu trí tưởng tượng và thích thể hiện bản thân qua nghệ thuật. Bạn yêu cái đẹp, thích tự do và không ngại khác biệt.",
+      "dac_diem": ["Sáng tạo", "Giàu trí tưởng tượng", "Nhạy cảm thẩm mỹ", "Tự do", "Cảm xúc phong phú"],
+      "nghe_phu_hop_2026": ["Nhà thiết kế UI/UX", "Nhà thiết kế đồ họa", "Content Creator", "Nhà thiết kế game", "Kiến trúc sư", "Nhà làm phim/Animation", "Nhà sáng tạo nội dung số"],
+      "nganh_hoc": ["Thiết kế Đồ họa", "Kiến trúc", "Truyền thông Đa phương tiện", "Mỹ thuật ứng dụng", "Điện ảnh"],
+      "to_hop_goi_y": ["H00", "D01", "D14", "D15"]
+    },
+    "S": {
+      "ten": "Social — Xã hội / Hỗ trợ",
+      "bieu_tuong": "🤝",
+      "mau_sac": "#2ecc71",
+      "mo_ta": "Bạn thích giúp đỡ, chăm sóc và hỗ trợ người khác. Bạn giỏi giao tiếp, đồng cảm và muốn tạo ra sự thay đổi tích cực cho cộng đồng.",
+      "dac_diem": ["Đồng cảm", "Kiên nhẫn", "Giao tiếp tốt", "Hợp tác", "Quan tâm người khác"],
+      "nghe_phu_hop_2026": ["Giáo viên/Giảng viên", "Bác sĩ/Y tá", "Tư vấn tâm lý", "Nhân viên xã hội", "Tư vấn hướng nghiệp", "Chuyên viên đào tạo doanh nghiệp", "Chuyên viên HR"],
+      "nganh_hoc": ["Sư phạm", "Y khoa", "Tâm lý học", "Công tác Xã hội", "Quản trị Nhân sự"],
+      "to_hop_goi_y": ["C00", "D01", "D14", "B00"]
+    },
+    "E": {
+      "ten": "Enterprising — Quản lý / Kinh doanh",
+      "bieu_tuong": "💼",
+      "mau_sac": "#f39c12",
+      "mo_ta": "Bạn thích lãnh đạo, thuyết phục và kinh doanh. Bạn tự tin, quyết đoán và luôn tìm kiếm cơ hội để phát triển.",
+      "dac_diem": ["Tự tin", "Quyết đoán", "Thuyết phục giỏi", "Năng động", "Chấp nhận rủi ro"],
+      "nghe_phu_hop_2026": ["CEO/Nhà sáng lập startup", "Marketing Manager", "Sales Manager", "Tư vấn quản lý", "Nhà đầu tư", "Product Manager", "Growth Hacker"],
+      "nganh_hoc": ["Quản trị Kinh doanh", "Marketing", "Thương mại Điện tử", "Tài chính - Ngân hàng", "Luật Kinh tế"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "D07"]
+    },
+    "C": {
+      "ten": "Conventional — Nghiệp vụ / Hệ thống",
+      "bieu_tuong": "📊",
+      "mau_sac": "#1abc9c",
+      "mo_ta": "Bạn thích sắp xếp, tổ chức và làm việc với dữ liệu, số liệu. Bạn cẩn thận, chính xác và thích công việc có quy trình rõ ràng.",
+      "dac_diem": ["Cẩn thận", "Chính xác", "Có tổ chức", "Kiên nhẫn", "Tuân thủ quy tắc"],
+      "nghe_phu_hop_2026": ["Kế toán/Kiểm toán", "Chuyên viên phân tích dữ liệu", "Quản trị cơ sở dữ liệu", "Nhân viên ngân hàng", "Chuyên viên thuế", "Kỹ sư QA/Kiểm thử phần mềm", "Business Analyst"],
+      "nganh_hoc": ["Kế toán", "Tài chính", "Quản trị Hệ thống Thông tin", "Thống kê", "Hành chính học"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "D07"]
+    }
+  },
+  "ket_hop_pho_bien": {
+    "RIA": { "mo_ta": "Bạn kết hợp giữa kỹ năng thực hành, nghiên cứu và sáng tạo — rất phù hợp với các ngành Kỹ thuật sáng tạo, Kiến trúc, Thiết kế công nghiệp." },
+    "RIS": { "mo_ta": "Bạn thích vừa làm việc thực tế vừa nghiên cứu và giúp đỡ người khác — phù hợp Y khoa, Kỹ thuật y sinh, Vật lý trị liệu." },
+    "RIE": { "mo_ta": "Bạn kết hợp thực hành, nghiên cứu với kinh doanh — phù hợp Kỹ sư khởi nghiệp, CTO startup, Quản lý sản xuất." },
+    "IAS": { "mo_ta": "Bạn thiên về nghiên cứu sáng tạo và hỗ trợ cộng đồng — phù hợp CNTT sáng tạo, UX Research, Giáo dục STEM." },
+    "IAE": { "mo_ta": "Bạn yêu nghiên cứu, sáng tạo và kinh doanh — phù hợp Khởi nghiệp công nghệ, Product Design, Innovation Consultant." },
+    "ICE": { "mo_ta": "Bạn kết hợp nghiên cứu, tổ chức và kinh doanh — phù hợp Khoa học dữ liệu, Fintech, Phân tích kinh doanh." },
+    "ASE": { "mo_ta": "Bạn sáng tạo, thích giao tiếp và kinh doanh — phù hợp Marketing sáng tạo, Truyền thông, Event Management." },
+    "SEC": { "mo_ta": "Bạn thích hỗ trợ người khác, kinh doanh và làm việc có tổ chức — phù hợp Quản trị Nhân sự, Tư vấn, Ngân hàng bán lẻ." },
+    "RIC": { "mo_ta": "Bạn thực tế, nghiên cứu kỹ và cẩn thận — phù hợp Kỹ sư vi mạch, An ninh mạng, DevOps, QA Engineer." },
+    "ECS": { "mo_ta": "Bạn thích lãnh đạo, tổ chức và giúp đỡ người khác — phù hợp Quản lý dự án, Đào tạo doanh nghiệp, HR Manager." }
+  }
+}

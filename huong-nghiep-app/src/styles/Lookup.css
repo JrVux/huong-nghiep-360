@@ -1,0 +1,297 @@
+/* Thống kê lưới tổ hợp */
+.combo-catalog-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+  padding: 1rem;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  border-radius: 12px;
+  background: rgba(248, 250, 252, 0.92);
+}
+
+.stat-card {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  text-align: center;
+}
+
+.stat-card strong {
+  font-size: 0.82rem;
+  color: var(--text-soft);
+}
+
+.stat-card span {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+}
+
+/* Thẻ thể hiện năm selector */
+.scores-by-year-selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.7rem;
+  padding: 1rem;
+}
+
+.year-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.7rem 0.5rem;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.year-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.12);
+}
+
+.year-btn.active {
+  border-color: rgba(37, 99, 235, 0.5);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(20, 184, 166, 0.12));
+}
+
+.year-index {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--primary-dark);
+}
+
+.year-stats {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-soft);
+}
+
+/* Danh sách điểm chuẩn cho một năm */
+.scores-for-year-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.score-major-item {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  gap: 0.7rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  background: rgba(248, 250, 252, 0.88);
+  transition: background-color 0.2s ease;
+}
+
+.score-major-item:hover {
+  background: rgba(248, 250, 252, 0.95);
+}
+
+.score-major-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.score-major-info {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.score-major-name {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--dark-text);
+}
+
+.score-detail-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.score-major-details {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.detail-label {
+  font-weight: 800;
+  color: var(--text-soft);
+}
+
+.detail-value {
+  font-weight: 800;
+  color: var(--primary-dark);
+}
+
+.score-find-link {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  align-self: center;
+}
+
+.score-find-link:hover {
+  background: rgba(37, 99, 235, 0.1);
+  border-color: rgba(20, 184, 166, 0.5);
+}
+
+.combo-category-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  background: rgba(15, 23, 42, 0.1);
+  color: var(--text-soft);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.combo-info-badge {
+  display: inline-flex;
+  gap: 0.2rem;
+  margin: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.combo-info-badge span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--primary-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+ /* Cấu trúc trang */
+.lookup-page { padding: 2rem 1rem; background: #f8fafc; min-height: 100vh; }
+.lookup-container { max-width: 1100px; margin: 0 auto; }
+.lookup-container h1 { font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--dark-text); }
+.lookup-section { background: white; border-radius: 14px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.lookup-section h2 { font-size: 1.15rem; margin-bottom: 0.6rem; color: var(--dark-text); }
+.instruction { font-size: 0.88rem; color: var(--text-soft); margin-bottom: 1rem; }
+
+/* Bước 1: TH Selection */
+.combo-selection { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.combo-btn { display: grid; gap: 0.4rem; padding: 1rem 1.2rem; border: 2px solid rgba(37,99,235,0.15); border-radius: 12px; background: white; cursor: pointer; transition: all 0.2s ease; min-width: 160px; text-align: left; }
+.combo-btn:hover { border-color: rgba(37,99,235,0.35); transform: translateY(-1px); }
+.combo-btn.active { border-color: rgba(37,99,235,0.5); background: linear-gradient(135deg, rgba(37,99,235,0.08), rgba(20,184,166,0.08)); }
+.btn-code { font-size: 1.1rem; font-weight: 900; color: var(--primary-dark); }
+.btn-subjects { font-size: 0.82rem; color: var(--text-soft); line-height: 1.4; }
+.class-count { font-size: 0.82rem; font-weight: 700; color: var(--primary-dark); margin-top: 0.3rem; }
+
+/* Bước 2: Combo results */
+.combo-results { display: grid; gap: 1rem; }
+.combo-detail-card { border: 1px solid rgba(37,99,235,0.12); border-radius: 12px; padding: 1.2rem; background: rgba(248,250,252,0.6); }
+.combo-detail-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.combo-code.chip { display: inline-block; padding: 0.25rem 0.7rem; border-radius: 8px; background: linear-gradient(135deg, #2563eb, #14b8a6); color: white; font-weight: 900; font-size: 0.9rem; }
+.combo-subjects { font-size: 0.85rem; color: var(--text-soft); margin: 0.3rem 0 0; }
+.btn-info { padding: 0.4rem 0.9rem; border: 1px solid rgba(37,99,235,0.25); border-radius: 8px; background: white; color: var(--primary-dark); font-weight: 700; font-size: 0.8rem; cursor: pointer; transition: all 0.2s ease; white-space: nowrap; }
+.btn-info:hover { background: rgba(37,99,235,0.08); border-color: rgba(37,99,235,0.4); }
+
+.combo-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 0.5rem; margin-bottom: 0.8rem; }
+.meta-box { padding: 0.5rem 0.7rem; border-radius: 8px; background: white; border: 1px solid rgba(148,163,184,0.15); }
+.meta-box strong { display: block; font-size: 0.75rem; color: var(--text-soft); margin-bottom: 0.15rem; }
+.meta-box span { font-size: 0.9rem; font-weight: 800; color: var(--dark-text); }
+
+.hot-major-list { display: grid; gap: 0.5rem; margin-bottom: 0.8rem; }
+.hot-major-card { padding: 0.6rem 0.8rem; border-radius: 8px; background: white; border: 1px solid rgba(245,158,11,0.2); border-left: 3px solid #f59e0b; }
+.hot-major-card.hot-major-empty { border-left-color: var(--text-soft); }
+.hot-major-card strong { font-size: 0.85rem; }
+.hot-major-card p { font-size: 0.78rem; color: var(--text-soft); margin: 0.15rem 0 0; }
+.major-row { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
+.major-row strong { font-size: 0.88rem; color: var(--dark-text); }
+.source-year-badge { flex: 0 0 auto; font-size: 0.68rem; font-weight: 800; padding: 0.18rem 0.45rem; border-radius: 999px; color: #166534; background: #dcfce7; }
+.trend-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.4rem; }
+.trend-tag { font-size: 0.68rem; font-weight: 800; padding: 0.16rem 0.42rem; border-radius: 999px; color: #92400e; background: #fef3c7; }
+.hot-major-card .trend-reason, .major-item .trend-reason { margin-top: 0.4rem; line-height: 1.45; color: #475569; }
+.major-row span { font-size: 0.82rem; font-weight: 800; color: var(--primary-dark); }
+
+.school-list { display: grid; gap: 0.5rem; }
+.school-detail { border: 1px solid rgba(37,99,235,0.1); border-radius: 8px; padding: 0.5rem 0.8rem; background: white; }
+.school-detail summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding: 0.3rem 0; font-weight: 700; font-size: 0.88rem; }
+.school-tag { font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.4rem; border-radius: 4px; background: rgba(37,99,235,0.08); color: var(--primary-dark); }
+.school-compact { font-size: 0.8rem; color: var(--text-soft); margin: 0.3rem 0; }
+
+.major-list { display: grid; gap: 0.4rem; margin-top: 0.5rem; }
+.major-item { padding: 0.5rem; border-radius: 6px; background: rgba(248,250,252,0.8); }
+.major-item p { font-size: 0.78rem; color: var(--text-soft); margin: 0.1rem 0; }
+.timeline-row { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-top: 0.2rem; }
+.source-pill { font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: rgba(37,99,235,0.06); color: var(--text-soft); }
+.major-source-link, .source-link { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--primary-dark); text-decoration: none; margin-top: 0.2rem; }
+.major-source-link:hover, .source-link:hover { text-decoration: underline; }
+
+.pending-panel { padding: 0.8rem; border-radius: 8px; background: rgba(148,163,184,0.06); border: 1px dashed rgba(148,163,184,0.25); }
+.pending-panel strong { font-size: 0.85rem; color: var(--text-soft); display: block; margin-bottom: 0.2rem; }
+.pending-panel p { font-size: 0.8rem; color: var(--text-soft); margin: 0; }
+.more-schools { font-size: 0.8rem; font-weight: 700; color: var(--primary-dark); text-align: center; padding: 0.4rem; }
+
+/* Detail card */
+.selected-combo-detail { border: 2px solid rgba(37,99,235,0.12); }
+.detail-card { display: grid; gap: 0.6rem; padding: 0.5rem 0; }
+.detail-row { display: flex; gap: 0.5rem; align-items: flex-start; }
+.detail-row strong { min-width: 140px; font-size: 0.85rem; color: var(--text-soft); }
+.detail-row span { font-size: 0.85rem; color: var(--dark-text); }
+
+/* Sources */
+.sources-box { background: linear-gradient(135deg, rgba(37,99,235,0.03), rgba(20,184,166,0.03)); }
+.source-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 0.8rem; }
+.source-card { display: grid; gap: 0.3rem; padding: 0.8rem; border-radius: 10px; border: 1px solid rgba(37,99,235,0.1); background: white; text-decoration: none; transition: all 0.2s ease; }
+.source-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(37,99,235,0.1); }
+.source-card strong { font-size: 0.88rem; color: var(--primary-dark); }
+.source-card span { font-size: 0.78rem; color: var(--text-soft); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .combo-catalog-stats { grid-template-columns: repeat(2, 1fr); }
+  .combo-detail-card { grid-template-columns: 1fr; }
+  .score-major-item { grid-template-columns: 35px 1fr; }
+  .combo-selection { flex-direction: column; }
+  .combo-btn { min-width: auto; }
+  .detail-row { flex-direction: column; gap: 0.2rem; }
+  .detail-row strong { min-width: auto; }
+}
+
+/* Bảng tham khảo 3 data */
+.ref-tables-section { margin-top: 1.5rem; }
+.ref-table-wrapper { overflow-x: auto; margin-bottom: 2rem; }
+.ref-table { width: 100%; min-width: 700px; border-collapse: collapse; font-size: 0.82rem; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(37,99,235,0.08); }
+.ref-table thead { background: linear-gradient(135deg, #2563eb, #14b8a6); color: white; }
+.ref-table th { padding: 0.6rem 0.8rem; text-align: left; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.3px; white-space: nowrap; }
+.ref-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(148,163,184,0.12); color: var(--dark-text); }
+.ref-table tbody tr:hover { background: rgba(37,99,235,0.04); }
+.ref-table tbody tr:nth-child(even) { background: rgba(248,250,252,0.5); }
+.ref-table .stt { width: 50px; text-align: center; font-weight: 800; color: var(--primary-dark); }
+.ref-table .code { font-family: monospace; font-weight: 800; color: var(--primary-dark); background: rgba(37,99,235,0.08); padding: 0.15rem 0.4rem; border-radius: 4px; }
+.ref-table .subjects { color: var(--text-soft); font-size: 0.8rem; }
+.ref-table .score { font-family: monospace; font-weight: 700; color: var(--primary-dark); }
+.ref-table .schools { text-align: center; font-weight: 700; color: var(--primary-dark); }
+.ref-table .majors { text-align: center; font-weight: 700; color: var(--secondary-color); }
+.ref-table-title { font-size: 1rem; font-weight: 800; color: var(--dark-text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+.ref-table-title::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, #2563eb, #14b8a6); }

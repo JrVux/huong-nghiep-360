@@ -1,0 +1,158 @@
+{
+  "nguon": "Học viện Công nghệ Bưu chính Viễn thông (PTIT) - Điểm chuẩn chính thức 2021-2025",
+  "nguon_url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+  "nam_cap_nhat": 2026,
+  "ghi_chu": "Điểm chuẩn từ bảng tuyển sinh chính thức PTIT. Mỗi năm: ĐGNL (Điểm xét tuyển) / TN (Điểm THPT).",
+  "data": [
+    {
+      "truong": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "website": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+      "nganh": [
+        {
+          "ma_nganh": "7340122",
+          "ten_nganh": "Thương mại điện tử",
+          "to_hop_xet_tuyen": ["A00", "A01", "D01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 878, "TN_THPT": 26.7 },
+            "2022": { "DGNL": 852, "TN_THPT": 27.05 },
+            "2023": { "DGNL": 860, "TN_THPT": 25.8 },
+            "2024": { "DGNL": 870, "TN_THPT": 26.12 },
+            "2025": { "DGNL": 889, "TN_THPT": 24.57 }
+          }
+        },
+        {
+          "ma_nganh": "7460108",
+          "ten_nganh": "Khoa học Dữ liệu",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 875, "TN_THPT": 26.65 },
+            "2022": { "DGNL": 880, "TN_THPT": 27.05 },
+            "2023": { "DGNL": 915, "TN_THPT": 27.1 },
+            "2024": { "DGNL": 935, "TN_THPT": 27.5 },
+            "2025": { "DGNL": 1010, "TN_THPT": 27.7 }
+          }
+        },
+        {
+          "ma_nganh": "7480101",
+          "ten_nganh": "Khoa học Máy tính",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 920, "TN_THPT": 27.3 },
+            "2022": { "DGNL": 888, "TN_THPT": 27.1 },
+            "2023": { "DGNL": 915, "TN_THPT": 26.9 },
+            "2024": { "DGNL": 925, "TN_THPT": 27.3 },
+            "2025": { "DGNL": 993, "TN_THPT": 27.2 }
+          }
+        },
+        {
+          "ma_nganh": "7480102",
+          "ten_nganh": "Mạng máy tính & Truyền thông dữ liệu",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 810, "TN_THPT": 26.35 },
+            "2022": { "DGNL": 810, "TN_THPT": 26.3 },
+            "2023": { "DGNL": 845, "TN_THPT": 25.4 },
+            "2024": { "DGNL": 855, "TN_THPT": 25.7 },
+            "2025": { "DGNL": 854, "TN_THPT": 24.0 }
+          }
+        },
+        {
+          "ma_nganh": "7480103",
+          "ten_nganh": "Kỹ thuật Phần mềm",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 900, "TN_THPT": 27.0 },
+            "2022": { "DGNL": 875, "TN_THPT": 26.8 },
+            "2023": { "DGNL": 905, "TN_THPT": 26.7 },
+            "2024": { "DGNL": 915, "TN_THPT": 27.0 },
+            "2025": { "DGNL": 980, "TN_THPT": 27.1 }
+          }
+        },
+        {
+          "ma_nganh": "7480104",
+          "ten_nganh": "Hệ thống Thông tin",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 830, "TN_THPT": 26.0 },
+            "2022": { "DGNL": 800, "TN_THPT": 25.8 },
+            "2023": { "DGNL": 835, "TN_THPT": 25.5 },
+            "2024": { "DGNL": 850, "TN_THPT": 26.0 },
+            "2025": { "DGNL": 910, "TN_THPT": 26.2 }
+          }
+        },
+        {
+          "ma_nganh": "7480105",
+          "ten_nganh": "Kỹ thuật Máy tính",
+          "to_hop_xet_tuyen": ["A00", "A01"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 850, "TN_THPT": 26.2 },
+            "2022": { "DGNL": 820, "TN_THPT": 26.0 },
+            "2023": { "DGNL": 855, "TN_THPT": 25.8 },
+            "2024": { "DGNL": 870, "TN_THPT": 26.3 },
+            "2025": { "DGNL": 930, "TN_THPT": 26.5 }
+          }
+        },
+        {
+          "ma_nganh": "7480107",
+          "ten_nganh": "Trí tuệ Nhân tạo",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 930, "TN_THPT": 27.5 },
+            "2022": { "DGNL": 900, "TN_THPT": 27.2 },
+            "2023": { "DGNL": 935, "TN_THPT": 27.3 },
+            "2024": { "DGNL": 950, "TN_THPT": 27.6 },
+            "2025": { "DGNL": 1010, "TN_THPT": 27.5 }
+          }
+        },
+        {
+          "ma_nganh": "7480201",
+          "ten_nganh": "Công nghệ Thông tin",
+          "to_hop_xet_tuyen": ["A00", "A01", "D01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 870, "TN_THPT": 26.8 },
+            "2022": { "DGNL": 840, "TN_THPT": 26.5 },
+            "2023": { "DGNL": 875, "TN_THPT": 26.3 },
+            "2024": { "DGNL": 890, "TN_THPT": 26.8 },
+            "2025": { "DGNL": 950, "TN_THPT": 26.9 }
+          }
+        },
+        {
+          "ma_nganh": "7480202",
+          "ten_nganh": "An toàn Thông tin",
+          "to_hop_xet_tuyen": ["A00", "A01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 860, "TN_THPT": 26.5 },
+            "2022": { "DGNL": 830, "TN_THPT": 26.3 },
+            "2023": { "DGNL": 865, "TN_THPT": 26.0 },
+            "2024": { "DGNL": 880, "TN_THPT": 26.6 },
+            "2025": { "DGNL": 940, "TN_THPT": 26.8 }
+          }
+        },
+        {
+          "ma_nganh": "7510302",
+          "ten_nganh": "Thiết kế Vi mạch",
+          "to_hop_xet_tuyen": ["A00", "A01"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 870, "TN_THPT": 26.5 },
+            "2022": { "DGNL": 840, "TN_THPT": 26.5 },
+            "2023": { "DGNL": 870, "TN_THPT": 26.5 },
+            "2024": { "DGNL": 900, "TN_THPT": 27.0 },
+            "2025": { "DGNL": 960, "TN_THPT": 27.2 }
+          }
+        },
+        {
+          "ma_nganh": "7320104",
+          "ten_nganh": "Truyền thông Đa phương tiện",
+          "to_hop_xet_tuyen": ["A00", "A01", "D01", "D07"],
+          "diem_theo_nam": {
+            "2021": { "DGNL": 810, "TN_THPT": 25.8 },
+            "2022": { "DGNL": 780, "TN_THPT": 25.5 },
+            "2023": { "DGNL": 815, "TN_THPT": 25.3 },
+            "2024": { "DGNL": 835, "TN_THPT": 25.9 },
+            "2025": { "DGNL": 895, "TN_THPT": 26.0 }
+          }
+        }
+      ]
+    }
+  ]
+}

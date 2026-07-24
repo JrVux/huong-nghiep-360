@@ -1,0 +1,133 @@
+{
+  "khuyen_cao": "Đây là công cụ tham khảo giúp bạn hiểu thêm về bản thân, KHÔNG thay thế tư vấn hướng nghiệp chuyên sâu. Tính cách con người rất phong phú và không thể gói gọn trong 4 chữ cái.",
+  "ket_qua": {
+    "INTJ": {
+      "ten": "Nhà Chiến lược",
+      "mo_ta": "Bạn là người có tư duy chiến lược, thích lập kế hoạch dài hạn và luôn tìm cách cải thiện mọi thứ. Bạn độc lập, quyết đoán và có khả năng phân tích sâu sắc. Bạn tin vào logic và luôn tìm kiếm kiến thức mới.",
+      "diem_manh": ["Tư duy chiến lược", "Độc lập", "Quyết đoán", "Phân tích sâu", "Tầm nhìn xa"],
+      "diem_can_luu_y": ["Có thể quá cầu toàn", "Đôi khi khó thể hiện cảm xúc", "Cần linh hoạt hơn với người khác"],
+      "nghe_phu_hop_2026": ["Kỹ sư AI/Machine Learning", "Kiến trúc sư phần mềm", "Nhà khoa học dữ liệu", "Chuyên gia an ninh mạng", "Kỹ sư vi mạch/bán dẫn", "Quản lý dự án công nghệ", "Nhà nghiên cứu khoa học"],
+      "to_hop_goi_y": ["A00", "A01", "D07", "X06", "X26"]
+    },
+    "INTP": {
+      "ten": "Nhà Tư duy",
+      "mo_ta": "Bạn là người yêu thích tri thức, luôn tò mò và muốn hiểu rõ bản chất sự việc. Bạn sáng tạo trong tư duy, thích giải quyết các bài toán phức tạp và có khả năng nhìn ra những kết nối mà người khác bỏ qua.",
+      "diem_manh": ["Tư duy logic sắc bén", "Sáng tạo", "Ham học hỏi", "Linh hoạt trong suy nghĩ", "Giải quyết vấn đề giỏi"],
+      "diem_can_luu_y": ["Đôi khi quá lý thuyết", "Cần rèn kỹ năng giao tiếp", "Hay trì hoãn việc thực thi"],
+      "nghe_phu_hop_2026": ["Lập trình viên/Nhà phát triển phần mềm", "Nhà nghiên cứu AI", "Nhà khoa học dữ liệu", "Kỹ sư blockchain", "Nhà toán học ứng dụng", "Nhà phân tích hệ thống"],
+      "to_hop_goi_y": ["A00", "A01", "X06", "X26"]
+    },
+    "ENTJ": {
+      "ten": "Nhà Lãnh đạo",
+      "mo_ta": "Bạn là người có khả năng lãnh đạo bẩm sinh, quyết đoán và có tầm nhìn rộng. Bạn giỏi tổ chức, lập kế hoạch và truyền cảm hứng cho người khác hướng tới mục tiêu chung.",
+      "diem_manh": ["Lãnh đạo quyết đoán", "Tổ chức giỏi", "Tự tin", "Tầm nhìn chiến lược", "Hiệu quả cao"],
+      "diem_can_luu_y": ["Đôi khi quá cứng rắn", "Cần lắng nghe nhiều hơn", "Có thể gây áp lực cho người khác"],
+      "nghe_phu_hop_2026": ["Giám đốc công nghệ (CTO)", "Quản lý dự án CNTT", "Nhà sáng lập startup", "Tư vấn chuyển đổi số", "Giám đốc điều hành", "Quản lý sản phẩm số"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "D07"]
+    },
+    "ENTP": {
+      "ten": "Nhà Tranh biện",
+      "mo_ta": "Bạn là người nhanh nhạy, sáng tạo và thích thách thức các ý tưởng truyền thống. Bạn giỏi tranh luận, thích khám phá nhiều khả năng và không ngại thử nghiệm những điều mới.",
+      "diem_manh": ["Sáng tạo vượt trội", "Nhanh nhạy", "Giỏi tranh luận", "Linh hoạt", "Đa tài"],
+      "diem_can_luu_y": ["Dễ chán với chi tiết", "Cần kiên nhẫn hơn", "Đôi khi bắt đầu nhiều việc mà không hoàn thành"],
+      "nghe_phu_hop_2026": ["Nhà khởi nghiệp công nghệ", "Product Manager", "Marketing số/Growth Hacker", "Tư vấn đổi mới sáng tạo", "Nhà phát triển game", "Chuyên gia UX/UI"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "X26"]
+    },
+    "INFJ": {
+      "ten": "Người Cố vấn",
+      "mo_ta": "Bạn là người sâu sắc, giàu lòng trắc ẩn và luôn muốn tạo ra sự thay đổi tích cực. Bạn có trực giác mạnh mẽ, hiểu người khác và có lý tưởng cao đẹp.",
+      "diem_manh": ["Trực giác sắc bén", "Giàu lòng trắc ẩn", "Sáng tạo", "Kiên định với giá trị", "Truyền cảm hứng"],
+      "diem_can_luu_y": ["Dễ bị quá tải cảm xúc", "Cần thực tế hơn đôi khi", "Hay tự đặt áp lực cho bản thân"],
+      "nghe_phu_hop_2026": ["Tư vấn tâm lý/hướng nghiệp", "Nhà thiết kế trải nghiệm người dùng (UX)", "Giáo viên/Giảng viên", "Nhà nghiên cứu xã hội học", "Content Creator/Nhà báo", "Chuyên gia phát triển bền vững"],
+      "to_hop_goi_y": ["C00", "D01", "D14", "C20"]
+    },
+    "INFP": {
+      "ten": "Người Lý tưởng",
+      "mo_ta": "Bạn là người giàu cảm xúc, sáng tạo và luôn trung thành với giá trị cá nhân. Bạn thích giúp đỡ người khác phát triển và có khả năng viết lách, nghệ thuật tốt.",
+      "diem_manh": ["Sáng tạo phong phú", "Đồng cảm sâu sắc", "Trung thành với giá trị", "Linh hoạt", "Viết lách giỏi"],
+      "diem_can_luu_y": ["Dễ bị tổn thương", "Cần thực tế hơn", "Đôi khi quá lý tưởng hóa"],
+      "nghe_phu_hop_2026": ["Nhà thiết kế đồ họa/UI", "Nhà văn/Biên kịch/Content Writer", "Nhà tâm lý học", "Nhà hoạt động xã hội", "Giáo viên nghệ thuật", "Nhà thiết kế truyền thông đa phương tiện"],
+      "to_hop_goi_y": ["C00", "D01", "D14", "D15"]
+    },
+    "ENFJ": {
+      "ten": "Người Dẫn dắt",
+      "mo_ta": "Bạn là người có sức cuốn hút tự nhiên, giỏi truyền cảm hứng và luôn quan tâm đến người khác. Bạn có khả năng kết nối mọi người và tạo ra môi trường tích cực.",
+      "diem_manh": ["Lãnh đạo bằng cảm hứng", "Giao tiếp xuất sắc", "Đồng cảm", "Tổ chức giỏi", "Có trách nhiệm"],
+      "diem_can_luu_y": ["Dễ bị ảnh hưởng bởi ý kiến người khác", "Cần chăm sóc bản thân nhiều hơn", "Đôi khi quá hy sinh"],
+      "nghe_phu_hop_2026": ["Giáo viên/Giảng viên", "Quản lý nhân sự", "Tư vấn hướng nghiệp", "Marketing Manager", "Truyền thông/PR", "Đào tạo và phát triển nguồn nhân lực"],
+      "to_hop_goi_y": ["C00", "D01", "D14", "D15"]
+    },
+    "ENFP": {
+      "ten": "Người Truyền cảm hứng",
+      "mo_ta": "Bạn là người nhiệt tình, sáng tạo và luôn tràn đầy ý tưởng mới. Bạn thích kết nối với mọi người, khám phá khả năng mới và mang lại niềm vui cho người xung quanh.",
+      "diem_manh": ["Sáng tạo không giới hạn", "Nhiệt tình", "Giao tiếp tốt", "Linh hoạt", "Lạc quan"],
+      "diem_can_luu_y": ["Dễ mất tập trung", "Cần kỷ luật hơn", "Đôi khi bắt đầu nhiều dự án cùng lúc"],
+      "nghe_phu_hop_2026": ["Nhà sáng tạo nội dung số", "Nhà thiết kế UI/UX", "Marketing sáng tạo", "Nhà báo/Phóng viên", "Event Planner", "Nhà tư vấn khởi nghiệp"],
+      "to_hop_goi_y": ["D01", "D14", "D15", "C00"]
+    },
+    "ISTJ": {
+      "ten": "Người Đáng tin cậy",
+      "mo_ta": "Bạn là người đáng tin cậy, có trách nhiệm và luôn hoàn thành công việc đúng hạn. Bạn tỉ mỉ, chính xác và tôn trọng quy tắc, truyền thống.",
+      "diem_manh": ["Đáng tin cậy", "Tỉ mỉ chính xác", "Có kỷ luật", "Kiên nhẫn", "Thực tế"],
+      "diem_can_luu_y": ["Đôi khi quá cứng nhắc", "Cần linh hoạt hơn", "Khó thích nghi với thay đổi đột ngột"],
+      "nghe_phu_hop_2026": ["Kế toán/Kiểm toán", "Quản lý dữ liệu", "Kỹ sư QA/Kiểm thử phần mềm", "Nhà quản lý hành chính", "Chuyên viên phân tích tài chính", "Kỹ sư hệ thống"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "C01"]
+    },
+    "ISFJ": {
+      "ten": "Người Bảo vệ",
+      "mo_ta": "Bạn là người chu đáo, tận tâm và luôn sẵn sàng giúp đỡ người khác. Bạn có trí nhớ tốt, chú ý đến chi tiết và tạo ra môi trường ấm áp cho mọi người.",
+      "diem_manh": ["Chu đáo tận tâm", "Trí nhớ tốt", "Kiên nhẫn", "Đáng tin cậy", "Hỗ trợ người khác"],
+      "diem_can_luu_y": ["Hay quên chăm sóc bản thân", "Khó từ chối người khác", "Cần tự tin hơn"],
+      "nghe_phu_hop_2026": ["Y tá/Bác sĩ", "Giáo viên tiểu học", "Nhân viên xã hội", "Dược sĩ", "Nhà dinh dưỡng", "Chuyên viên chăm sóc khách hàng"],
+      "to_hop_goi_y": ["B00", "C00", "D01", "D08"]
+    },
+    "ESTJ": {
+      "ten": "Người Quản lý",
+      "mo_ta": "Bạn là người tổ chức giỏi, thích dẫn dắt và đảm bảo mọi thứ hoạt động hiệu quả. Bạn tôn trọng truyền thống, tuân thủ quy tắc và luôn hoàn thành nhiệm vụ.",
+      "diem_manh": ["Tổ chức xuất sắc", "Quyết đoán", "Thực tế", "Có trách nhiệm", "Lãnh đạo hiệu quả"],
+      "diem_can_luu_y": ["Đôi khi quá nghiêm khắc", "Cần lắng nghe cảm xúc hơn", "Có thể thiếu linh hoạt"],
+      "nghe_phu_hop_2026": ["Quản lý dự án", "Giám đốc điều hành", "Luật sư", "Quân đội/Công an", "Quản lý chuỗi cung ứng", "Chuyên viên ngân hàng"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "C03"]
+    },
+    "ESFJ": {
+      "ten": "Người Chăm sóc",
+      "mo_ta": "Bạn là người thân thiện, nhiệt tình và luôn quan tâm đến cảm xúc của người khác. Bạn giỏi tạo ra sự hài hòa trong nhóm và thích giúp đỡ mọi người.",
+      "diem_manh": ["Thân thiện", "Hợp tác tốt", "Quan tâm người khác", "Có trách nhiệm", "Tận tâm"],
+      "diem_can_luu_y": ["Dễ bị ảnh hưởng bởi đánh giá của người khác", "Cần tự tin hơn với quyết định", "Đôi khi quá lo lắng"],
+      "nghe_phu_hop_2026": ["Bác sĩ/Y tá", "Giáo viên", "Nhân viên PR/Truyền thông", "Chuyên viên tổ chức sự kiện", "Nhà quản lý khách sạn", "Chuyên viên tuyển dụng nhân sự"],
+      "to_hop_goi_y": ["B00", "C00", "D01", "D14"]
+    },
+    "ISTP": {
+      "ten": "Nhà Kỹ thuật",
+      "mo_ta": "Bạn là người thực tế, giỏi giải quyết vấn đề và thích tìm hiểu cách mọi thứ hoạt động. Bạn bình tĩnh, linh hoạt và có khả năng xử lý tình huống khẩn cấp tốt.",
+      "diem_manh": ["Giải quyết vấn đề thực tế", "Bình tĩnh dưới áp lực", "Linh hoạt", "Kỹ năng tay nghề tốt", "Phân tích logic"],
+      "diem_can_luu_y": ["Có thể quá tách biệt cảm xúc", "Cần cam kết lâu dài hơn", "Đôi khi quá liều lĩnh"],
+      "nghe_phu_hop_2026": ["Kỹ sư cơ khí/điện tử", "Kỹ thuật viên IoT", "Chuyên gia bảo mật hệ thống", "Kỹ sư vi mạch", "Thợ máy/Kỹ thuật viên sửa chữa", "Phi công drone"],
+      "to_hop_goi_y": ["A00", "A01", "X06", "C01"]
+    },
+    "ISFP": {
+      "ten": "Người Nghệ sĩ",
+      "mo_ta": "Bạn là người nhạy cảm, thẩm mỹ cao và thích sống theo cảm xúc. Bạn yêu thiên nhiên, nghệ thuật và có khả năng sáng tạo tự nhiên.",
+      "diem_manh": ["Thẩm mỹ cao", "Nhạy cảm tinh tế", "Sáng tạo", "Hài hòa", "Thích khám phá"],
+      "diem_can_luu_y": ["Cần quyết đoán hơn", "Dễ bị ảnh hưởng cảm xúc", "Đôi khi thiếu kế hoạch dài hạn"],
+      "nghe_phu_hop_2026": ["Nhà thiết kế thời trang/đồ họa", "Nhiếp ảnh gia", "Nhà thiết kế nội thất", "Nghệ sĩ/Họa sĩ", "Chuyên viên truyền thông đa phương tiện", "Nhà thiết kế game"],
+      "to_hop_goi_y": ["H00", "D01", "D14", "D15"]
+    },
+    "ESTP": {
+      "ten": "Nhà Doanh nhân",
+      "mo_ta": "Bạn là người năng động, thực tế và thích hành động. Bạn giỏi nắm bắt cơ hội, thích rủi ro có tính toán và luôn sống trong khoảnh khắc hiện tại.",
+      "diem_manh": ["Năng động", "Nhanh nhạy", "Thực tế", "Thuyết phục giỏi", "Xử lý tình huống tốt"],
+      "diem_can_luu_y": ["Cần kiên nhẫn hơn", "Đôi khi bốc đồng", "Cần lập kế hoạch dài hạn hơn"],
+      "nghe_phu_hop_2026": ["Nhà khởi nghiệp/Doanh nhân", "Sales/Kinh doanh công nghệ", "Nhà đầu tư", "Quản lý chuỗi bán lẻ", "Marketing thực chiến", "Vận động viên/Huấn luyện viên"],
+      "to_hop_goi_y": ["A00", "A01", "D01", "D07"]
+    },
+    "ESFP": {
+      "ten": "Người Biểu diễn",
+      "mo_ta": "Bạn là người vui vẻ, năng động và thích mang lại niềm vui cho mọi người. Bạn sống hết mình, thích trải nghiệm mới và có khả năng kết nối với mọi người một cách tự nhiên.",
+      "diem_manh": ["Vui vẻ lạc quan", "Giao tiếp tuyệt vời", "Linh hoạt", "Thực tế", "Nhiệt tình"],
+      "diem_can_luu_y": ["Dễ mất tập trung", "Cần nghiêm túc hơn đôi khi", "Đôi khi thiếu kế hoạch"],
+      "nghe_phu_hop_2026": ["MC/Người dẫn chương trình", "Nhà sáng tạo nội dung (TikTok, YouTube)", "Hướng dẫn viên du lịch", "Chuyên viên quan hệ công chúng", "Nhà tổ chức sự kiện", "Diễn viên/Ca sĩ"],
+      "to_hop_goi_y": ["D01", "D14", "D15", "C00"]
+    }
+  }
+}

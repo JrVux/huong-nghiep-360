@@ -1,0 +1,38 @@
+{
+  "nguon": "Thông tin tuyển sinh đại học chính quy năm 2026 của Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+  "nguon_url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+  "nam_cap_nhat": 2026,
+  "ghi_chu": "Các tổ hợp dưới đây được lấy từ đề án tuyển sinh chính quy 2026 của PTIT và được dùng làm ví dụ chuẩn để tham khảo xu hướng tuyển sinh.",
+  "data": [
+    {
+      "ma": "A00",
+      "mon": ["Toán", "Vật lí", "Hóa học"],
+      "truong_tieu_bieu": "PTIT",
+      "mo_ta": "Tổ hợp kỹ thuật nền tảng, phù hợp các ngành công nghệ, điện tử và kỹ thuật."
+    },
+    {
+      "ma": "A01",
+      "mon": ["Toán", "Vật lí", "Tiếng Anh"],
+      "truong_tieu_bieu": "PTIT",
+      "mo_ta": "Hợp với ngành công nghệ, viễn thông, CNTT và các chương trình cần ngoại ngữ."
+    },
+    {
+      "ma": "D01",
+      "mon": ["Toán", "Ngữ văn", "Tiếng Anh"],
+      "truong_tieu_bieu": "PTIT",
+      "mo_ta": "Tổ hợp phổ biến, dùng cho nhiều ngành kinh tế số, truyền thông và CNTT ứng dụng."
+    },
+    {
+      "ma": "X06",
+      "mon": ["Toán", "Vật lí", "Tin học"],
+      "truong_tieu_bieu": "PTIT",
+      "mo_ta": "Tổ hợp rất hợp với các ngành CNTT, trí tuệ nhân tạo, mạng và an toàn thông tin."
+    },
+    {
+      "ma": "X26",
+      "mon": ["Toán", "Tin học", "Tiếng Anh"],
+      "truong_tieu_bieu": "PTIT",
+      "mo_ta": "Tổ hợp nổi bật cho CNTT hiện đại, khoa học máy tính, dữ liệu và phần mềm."
+    }
+  ]
+}

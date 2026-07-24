@@ -1,0 +1,212 @@
+.results-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.results-container {
+  display: grid;
+  gap: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.results-header {
+  padding: 1.8rem 1.2rem;
+  border-radius: var(--radius-xl);
+  color: white;
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.2), transparent 28%),
+    linear-gradient(135deg, #0f172a 0%, #2563eb 48%, #7c3aed 100%);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.results-header h1 {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+  line-height: 1.1;
+}
+
+.mbti-type,
+.holland-type {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  font-weight: 800;
+}
+
+.mbti-name,
+.combination-desc {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.results-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.result-section {
+  padding: 1.2rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-md);
+}
+
+.result-section h3,
+.result-section h4 {
+  margin: 0 0 0.8rem;
+}
+
+.description,
+.tips,
+.small-text {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.result-section ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text-soft);
+}
+
+.result-section li + li {
+  margin-top: 0.5rem;
+}
+
+.strengths-list,
+.tips-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.careers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.career-card {
+  padding: 0.8rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
+.combo-tags,
+.career-tags,
+.field-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.combo-tag,
+.field-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.05);
+  color: var(--dark-text);
+  font-weight: 700;
+}
+
+.career-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  font-weight: 700;
+}
+
+.career-tag:hover {
+  transform: translateY(-1px);
+}
+
+.warning-section {
+  border-left: 5px solid var(--warning-color);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.08), rgba(255, 255, 255, 0.9));
+}
+
+.warning-section h4 {
+  color: #92400e;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.action-buttons .btn,
+.action-buttons a {
+  flex: 1 1 180px;
+}
+
+.holland-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.holland-card {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-md);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.bieutuong {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  font-size: 1.2rem;
+}
+
+.card-header h3 {
+  margin: 0;
+}
+
+.card-section h4 {
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 960px) {
+  .holland-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+}

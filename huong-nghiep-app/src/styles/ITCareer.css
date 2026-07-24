@@ -1,0 +1,198 @@
+.it-career-page {
+  display: grid;
+}
+
+.it-career-container {
+  display: grid;
+  gap: 1rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  padding: 1.8rem 1.25rem;
+  border-radius: var(--radius-xl);
+  color: white;
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 30%),
+    linear-gradient(135deg, #0f172a 0%, #2563eb 48%, #14b8a6 100%);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-section h1 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.1;
+}
+
+.tagline {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
+}
+
+.it-section {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-md);
+}
+
+.it-section h2 {
+  margin: 0;
+}
+
+.stat-cards,
+.career-cards,
+.skills-matrix,
+.cta-steps {
+  display: grid;
+  gap: 1rem;
+}
+
+.stat-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stat-card,
+.career-card,
+.skill-group,
+.step {
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.stat-card {
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0 0 0.35rem;
+  color: var(--primary-dark);
+  font-size: 1.5rem;
+}
+
+.stat-card p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.career-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.career-card {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1rem;
+}
+
+.career-card.hot {
+  border-color: rgba(37, 99, 235, 0.24);
+}
+
+.career-card h3 {
+  margin: 0;
+}
+
+.trend {
+  margin: 0;
+  color: var(--primary-dark);
+  font-weight: 800;
+}
+
+.description,
+.details p,
+.warnings li,
+.it-section p,
+.it-section li {
+  color: var(--text-soft);
+}
+
+.description p,
+.details p {
+  margin: 0;
+}
+
+.details {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.skills-matrix {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill-group {
+  padding: 1rem;
+}
+
+.skill-group h4 {
+  margin: 0 0 0.75rem;
+}
+
+.skill-group ul,
+.warnings,
+.resources-section ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.skill-group li + li,
+.warnings li + li,
+.resources-section li + li {
+  margin-top: 0.5rem;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-steps {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.step {
+  padding: 1rem;
+  text-align: left;
+}
+
+.step-number {
+  width: 2rem;
+  height: 2rem;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.step h4 {
+  margin: 0 0 0.45rem;
+}
+
+.resources-section a {
+  font-weight: 700;
+}
+
+.warnings {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .stat-cards,
+  .career-cards,
+  .skills-matrix,
+  .cta-steps {
+    grid-template-columns: 1fr;
+  }
+}

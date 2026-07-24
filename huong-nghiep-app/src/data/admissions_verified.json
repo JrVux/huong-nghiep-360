@@ -1,0 +1,500 @@
+{
+  "updated_at": "2026-07-24",
+  "disclaimer": "Dữ liệu định hướng được đối chiếu từ nguồn tuyển sinh chính thức. Thí sinh phải kiểm tra lại đề án tuyển sinh tại thời điểm đăng ký.",
+  "schools": [
+    {
+      "name": "Trường Đại học Mở Thành phố Hồ Chí Minh",
+      "short_name": "OU",
+      "location": "TP.HCM",
+      "location_type": "tru_so",
+      "website": "https://tuyensinh.ou.edu.vn/",
+      "source_title": "Danh mục ngành, chỉ tiêu, tổ hợp xét tuyển đại học chính quy năm 2026",
+      "source_url": "https://tuyensinh.ou.edu.vn/danh-muc-nganh-chi-tieu-to-hop-xet-tuyen-dai-hoc-chinh-quy-nam-2026",
+      "source_year": 2026,
+      "checked_at": "2026-07-24",
+      "majors": [
+        {
+          "code": "7340101",
+          "name": "Quản trị kinh doanh",
+          "trend_tags": ["Kinh doanh", "Quản trị"],
+          "trend_reason": "Nền tảng nghề nghiệp rộng trong vận hành, bán hàng và quản trị doanh nghiệp.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Sinh học", "Tiếng Anh"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Vật Lí"],
+            ["Toán", "Ngữ văn", "Hóa học"],
+            ["Toán", "Ngữ văn", "Sinh học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7340205",
+          "name": "Công nghệ tài chính",
+          "trend_tags": ["FinTech", "Chuyển đổi số"],
+          "trend_reason": "Kết hợp tài chính, dữ liệu và công nghệ trong ngân hàng số.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7510605",
+          "name": "Logistics và quản lý chuỗi cung ứng",
+          "trend_tags": ["Logistics", "Chuỗi cung ứng"],
+          "trend_reason": "Nhu cầu nhân lực gắn với thương mại, xuất nhập khẩu và vận hành.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Địa lí", "Tiếng Anh"],
+            ["Toán", "Địa lí", "Tin học"],
+            ["Toán", "Công nghệ công nghiệp", "Tiếng Anh"],
+            ["Toán", "Công nghệ công nghiệp", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7420201",
+          "name": "Công nghệ sinh học",
+          "trend_tags": ["Công nghệ sinh học", "Sức khỏe"],
+          "trend_reason": "Ứng dụng trong y sinh, thực phẩm, nông nghiệp và môi trường.",
+          "subject_sets": [
+            ["Toán", "Hóa học", "Vật Lí"],
+            ["Toán", "Hóa học", "Sinh học"],
+            ["Toán", "Hóa học", "Công nghệ nông nghiệp"],
+            ["Toán", "Hóa học", "Công nghệ công nghiệp"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Hóa học", "Ngữ văn"],
+            ["Toán", "Vật Lí", "Sinh học"],
+            ["Toán", "Vật Lí", "Công nghệ nông nghiệp"],
+            ["Toán", "Vật Lí", "Công nghệ công nghiệp"],
+            ["Toán", "Vật Lí", "Ngữ văn"],
+            ["Toán", "Sinh học", "Tiếng Anh"],
+            ["Toán", "Sinh học", "Ngữ văn"],
+            ["Toán", "Sinh học", "Tin học"],
+            ["Toán", "Sinh học", "Công nghệ nông nghiệp"],
+            ["Toán", "Sinh học", "Công nghệ công nghiệp"]
+          ]
+        },
+        {
+          "code": "7540101",
+          "name": "Công nghệ thực phẩm",
+          "trend_tags": ["Thực phẩm", "Kiểm soát chất lượng"],
+          "trend_reason": "Gắn với chế biến, an toàn thực phẩm và sản xuất bền vững.",
+          "subject_sets": [
+            ["Toán", "Hóa học", "Vật Lí"],
+            ["Toán", "Hóa học", "Sinh học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Công nghệ nông nghiệp"],
+            ["Toán", "Hóa học", "Công nghệ công nghiệp"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Hóa học", "Ngữ văn"],
+            ["Toán", "Vật Lí", "Sinh học"],
+            ["Toán", "Sinh học", "Tiếng Anh"]
+          ]
+        },
+        {
+          "code": "7460108",
+          "name": "Khoa học dữ liệu",
+          "trend_tags": ["Dữ liệu", "AI"],
+          "trend_reason": "Nhu cầu phân tích dữ liệu tăng trong tài chính, thương mại và công nghệ.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Hóa học", "Sinh học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Địa lí", "Tiếng Anh"],
+            ["Toán", "Địa lí", "Tin học"],
+            ["Toán", "Công nghệ công nghiệp", "Tiếng Anh"],
+            ["Toán", "Công nghệ công nghiệp", "Tin học"],
+            ["Toán", "Công nghệ nông nghiệp", "Tiếng Anh"],
+            ["Toán", "Công nghệ nông nghiệp", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"],
+            ["Toán", "Ngữ văn", "Sinh học"],
+            ["Toán", "Sinh học", "Tiếng Anh"],
+            ["Toán", "Sinh học", "Tin học"]
+          ]
+        },
+        {
+          "code": "7480103",
+          "name": "Kỹ thuật phần mềm",
+          "trend_tags": ["Phần mềm", "Chuyển đổi số"],
+          "trend_reason": "Năng lực phát triển phần mềm được ứng dụng trong hầu hết lĩnh vực.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7480202",
+          "name": "An toàn thông tin",
+          "trend_tags": ["An ninh mạng", "Công nghệ"],
+          "trend_reason": "An toàn dữ liệu và hệ thống là nhu cầu thiết yếu của tổ chức số.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7480107",
+          "name": "Trí tuệ nhân tạo",
+          "trend_tags": ["AI", "Dữ liệu"],
+          "trend_reason": "AI đang được ứng dụng nhanh trong sản xuất, dịch vụ và giáo dục.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7480201",
+          "name": "Công nghệ thông tin",
+          "trend_tags": ["Công nghệ", "Phần mềm"],
+          "trend_reason": "Ngành nền tảng cho chuyển đổi số và phát triển hệ thống thông tin.",
+          "subject_sets": [
+            ["Toán", "Vật Lí", "Hóa học"],
+            ["Toán", "Vật Lí", "Tiếng Anh"],
+            ["Toán", "Vật Lí", "Tin học"],
+            ["Toán", "Hóa học", "Tiếng Anh"],
+            ["Toán", "Hóa học", "Tin học"],
+            ["Toán", "Tiếng Anh", "Tin học"],
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Tin học"]
+          ]
+        },
+        {
+          "code": "7320104",
+          "name": "Truyền thông đa phương tiện",
+          "trend_tags": ["Nội dung số", "Sáng tạo"],
+          "trend_reason": "Kết hợp nội dung, thiết kế và công nghệ trong nền kinh tế số.",
+          "subject_sets": [
+            ["Toán", "Ngữ văn", "Tiếng Anh"],
+            ["Toán", "Ngữ văn", "Lịch sử"],
+            ["Toán", "Ngữ văn", "Địa lí"],
+            ["Toán", "Ngữ văn", "Hóa học"],
+            ["Toán", "Ngữ văn", "Sinh học"],
+            ["Toán", "Ngữ văn", "Vật Lí"],
+            ["Toán", "Ngữ văn", "Tin học"],
+            ["Toán", "Ngữ văn", "GDKT&PL"],
+            ["Toán", "Ngữ văn", "Công nghệ công nghiệp"],
+            ["Toán", "Ngữ văn", "Công nghệ nông nghiệp"]
+          ]
+        },
+        {
+          "code": "7380107",
+          "name": "Luật kinh tế",
+          "trend_tags": ["Pháp lý doanh nghiệp", "Kinh doanh"],
+          "trend_reason": "Nhu cầu pháp lý tăng cùng hoạt động thương mại và doanh nghiệp.",
+          "subject_sets": [
+            ["Ngữ văn", "Tiếng Anh", "Toán"],
+            ["Ngữ văn", "Tiếng Anh", "Lịch sử"],
+            ["Ngữ văn", "Tiếng Anh", "GDKT&PL"],
+            ["Ngữ văn", "Tiếng Anh", "Địa lí"],
+            ["Ngữ văn", "Tiếng Anh", "Vật Lí"],
+            ["Ngữ văn", "Tiếng Anh", "Tin học"],
+            ["Ngữ văn", "Tiếng Anh", "Công nghệ công nghiệp"],
+            ["Ngữ văn", "Tiếng Anh", "Hóa học"],
+            ["Ngữ văn", "Toán", "Vật Lí"],
+            ["Ngữ văn", "Lịch sử", "Địa lí"],
+            ["Ngữ văn", "Lịch sử", "GDKT&PL"]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Đại học Cần Thơ",
+      "short_name": "CTU",
+      "location": "Cần Thơ",
+      "location_type": "tru_so",
+      "website": "https://tuyensinh.ctu.edu.vn/",
+      "source_title": "Danh mục tổ hợp xét tuyển đại học chính quy năm 2026",
+      "source_url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2026/2025-11_CV-DHCT_Thong-bao_Danh-muc-To-hop-xet-tuyen-dai-hoc-chinh-quy-nam-2025_V2.signed.signed.signed.signed.pdf",
+      "source_year": 2026,
+      "checked_at": "2026-07-24",
+      "combination_definitions": {
+        "A00": ["Toán", "Vật Lí", "Hóa học"],
+        "A01": ["Toán", "Vật Lí", "Tiếng Anh"],
+        "A02": ["Toán", "Vật Lí", "Sinh học"],
+        "B00": ["Toán", "Hóa học", "Sinh học"],
+        "B03": ["Toán", "Sinh học", "Ngữ văn"],
+        "C00": ["Ngữ văn", "Lịch sử", "Địa lí"],
+        "C01": ["Ngữ văn", "Toán", "Vật Lí"],
+        "C02": ["Ngữ văn", "Toán", "Hóa học"],
+        "C03": ["Ngữ văn", "Toán", "Lịch sử"],
+        "C04": ["Ngữ văn", "Toán", "Địa lí"],
+        "C19": ["Ngữ văn", "Lịch sử", "GDKT&PL"],
+        "C20": ["Ngữ văn", "Địa lí", "GDKT&PL"],
+        "D01": ["Ngữ văn", "Toán", "Tiếng Anh"],
+        "D07": ["Toán", "Hóa học", "Tiếng Anh"],
+        "D09": ["Toán", "Lịch sử", "Tiếng Anh"],
+        "D14": ["Ngữ văn", "Lịch sử", "Tiếng Anh"],
+        "D15": ["Ngữ văn", "Địa lí", "Tiếng Anh"],
+        "X01": ["Toán", "Ngữ văn", "GDKT&PL"],
+        "X02": ["Toán", "Ngữ văn", "Tin học"],
+        "X06": ["Toán", "Vật Lí", "Tin học"],
+        "X26": ["Toán", "Tin học", "Tiếng Anh"],
+        "X27": ["Toán", "Công nghệ công nghiệp", "Tiếng Anh"],
+        "X70": ["Ngữ văn", "Lịch sử", "GDKT&PL"],
+        "X74": ["Ngữ văn", "Địa lí", "GDKT&PL"]
+      },
+      "majors": [
+        {
+          "code": "7340122",
+          "name": "Thương mại điện tử",
+          "trend_tags": ["Thương mại điện tử", "Kinh doanh số"],
+          "trend_reason": "Bán lẻ trực tuyến và vận hành nền tảng số tiếp tục mở rộng.",
+          "combination_codes": ["A00", "A01", "C02", "D01"]
+        },
+        {
+          "code": "7340205",
+          "name": "Công nghệ tài chính",
+          "trend_tags": ["FinTech", "Tài chính số"],
+          "trend_reason": "Kết hợp công nghệ với dịch vụ tài chính và thanh toán số.",
+          "combination_codes": ["A00", "A01", "C02", "D01"]
+        },
+        {
+          "code": "7460108",
+          "name": "Khoa học dữ liệu",
+          "trend_tags": ["Dữ liệu", "AI"],
+          "trend_reason": "Kỹ năng dữ liệu được ứng dụng rộng trong doanh nghiệp và nghiên cứu.",
+          "combination_codes": ["A00", "A01", "X06", "X26"]
+        },
+        {
+          "code": "7480106",
+          "name": "Kỹ thuật máy tính - Thiết kế vi mạch bán dẫn",
+          "trend_tags": ["Bán dẫn", "Vi mạch"],
+          "trend_reason": "Thiết kế vi mạch là lĩnh vực công nghệ cao được ưu tiên phát triển.",
+          "combination_codes": ["A00", "A01", "X06"]
+        },
+        {
+          "code": "7480107",
+          "name": "Trí tuệ nhân tạo",
+          "trend_tags": ["AI", "Tự động hóa"],
+          "trend_reason": "AI phát triển nhanh trong sản xuất, dịch vụ và phân tích dữ liệu.",
+          "combination_codes": ["A00", "A01", "X06", "X26"]
+        },
+        {
+          "code": "7480202",
+          "name": "An toàn thông tin",
+          "trend_tags": ["An ninh mạng", "Dữ liệu"],
+          "trend_reason": "Nhu cầu bảo vệ hệ thống và dữ liệu tăng theo chuyển đổi số.",
+          "combination_codes": ["A00", "A01", "X06", "X26"]
+        },
+        {
+          "code": "7510605",
+          "name": "Logistics và quản lý chuỗi cung ứng",
+          "trend_tags": ["Logistics", "Chuỗi cung ứng"],
+          "trend_reason": "Kết nối trực tiếp với xuất nhập khẩu, sản xuất và thương mại.",
+          "combination_codes": ["A00", "A01", "D01", "X27"]
+        },
+        {
+          "code": "7520216",
+          "name": "Kỹ thuật điều khiển và tự động hóa",
+          "trend_tags": ["Tự động hóa", "Công nghiệp"],
+          "trend_reason": "Tự động hóa là năng lực trọng tâm của sản xuất hiện đại.",
+          "combination_codes": ["A00", "A01", "D07", "X06"]
+        },
+        {
+          "code": "7420201",
+          "name": "Công nghệ sinh học",
+          "trend_tags": ["Công nghệ sinh học", "Sức khỏe"],
+          "trend_reason": "Ứng dụng trong y sinh, nông nghiệp và công nghệ thực phẩm.",
+          "combination_codes": ["A00", "B00", "D07"]
+        },
+        {
+          "code": "7540101",
+          "name": "Công nghệ thực phẩm",
+          "trend_tags": ["Thực phẩm", "Chất lượng"],
+          "trend_reason": "Thế mạnh đào tạo gắn với vùng nguyên liệu Đồng bằng sông Cửu Long.",
+          "combination_codes": ["A00", "A01", "B00", "D07"]
+        },
+        {
+          "code": "7640101",
+          "name": "Thú y",
+          "trend_tags": ["Sức khỏe vật nuôi", "Nông nghiệp"],
+          "trend_reason": "Nhu cầu chuyên môn ổn định trong chăn nuôi và an toàn dịch bệnh.",
+          "combination_codes": ["A02", "B00", "D07"]
+        },
+        {
+          "code": "7320104",
+          "name": "Truyền thông đa phương tiện",
+          "trend_tags": ["Nội dung số", "Truyền thông"],
+          "trend_reason": "Nội dung số cần nhân lực kết hợp sáng tạo và công nghệ.",
+          "combination_codes": ["A00", "A01", "D01", "X02"]
+        },
+        {
+          "code": "7380107",
+          "name": "Luật kinh tế",
+          "trend_tags": ["Pháp lý doanh nghiệp", "Kinh doanh"],
+          "trend_reason": "Doanh nghiệp cần nhân lực hiểu pháp luật trong vận hành và giao dịch.",
+          "combination_codes": ["C00", "C01", "D01", "X01"]
+        },
+        {
+          "code": "7220201",
+          "name": "Ngôn ngữ Anh",
+          "trend_tags": ["Ngoại ngữ", "Hội nhập"],
+          "trend_reason": "Ngoại ngữ hỗ trợ việc làm trong thương mại, dịch vụ và giáo dục.",
+          "combination_codes": ["D01", "D09", "D14", "D15"]
+        },
+        {
+          "code": "7810101",
+          "name": "Du lịch",
+          "trend_tags": ["Du lịch", "Dịch vụ"],
+          "trend_reason": "Phù hợp định hướng phát triển dịch vụ và du lịch vùng.",
+          "combination_codes": ["C00", "D01", "D14", "D15"]
+        }
+      ]
+    },
+    {
+      "name": "Trường Đại học Khoa học - Đại học Thái Nguyên",
+      "short_name": "TNUS",
+      "location": "Thái Nguyên",
+      "location_type": "other",
+      "website": "https://tnus.edu.vn",
+      "source_title": "Thông tin tuyển sinh đại học chính quy năm 2026",
+      "source_url": "https://tuyensinh.tnus.edu.vn/article/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026",
+      "source_year": 2026,
+      "checked_at": "2026-07-24",
+      "combination_definitions": {
+        "A00": ["Toán", "Vật Lí", "Hóa học"],
+        "A01": ["Toán", "Vật Lí", "Tiếng Anh"],
+        "A02": ["Toán", "Vật Lí", "Sinh học"],
+        "A03": ["Toán", "Vật Lí", "Lịch sử"],
+        "A04": ["Toán", "Vật Lí", "Địa lí"],
+        "A05": ["Toán", "Hóa học", "Lịch sử"],
+        "A06": ["Toán", "Hóa học", "Địa lí"],
+        "A10": ["Toán", "Vật Lí", "GDKT&PL"],
+        "A11": ["Toán", "Hóa học", "GDKT&PL"],
+        "B00": ["Toán", "Hóa học", "Sinh học"],
+        "B01": ["Toán", "Sinh học", "Lịch sử"],
+        "B02": ["Toán", "Sinh học", "Địa lí"],
+        "B03": ["Toán", "Sinh học", "Ngữ văn"],
+        "B04": ["Toán", "Sinh học", "GDKT&PL"],
+        "B08": ["Toán", "Sinh học", "Tiếng Anh"],
+        "C01": ["Ngữ văn", "Toán", "Vật Lí"],
+        "C02": ["Ngữ văn", "Toán", "Hóa học"],
+        "C05": ["Ngữ văn", "Vật Lí", "Hóa học"],
+        "C06": ["Ngữ văn", "Vật Lí", "Sinh học"],
+        "C07": ["Ngữ văn", "Vật Lí", "Lịch sử"],
+        "C08": ["Ngữ văn", "Hóa học", "Sinh học"],
+        "C09": ["Ngữ văn", "Vật Lí", "Địa lí"],
+        "C10": ["Ngữ văn", "Hóa học", "Lịch sử"],
+        "C12": ["Ngữ văn", "Sinh học", "Lịch sử"],
+        "C13": ["Ngữ văn", "Sinh học", "Địa lí"],
+        "D01": ["Ngữ văn", "Toán", "Tiếng Anh"],
+        "D07": ["Toán", "Hóa học", "Tiếng Anh"],
+        "D08": ["Toán", "Sinh học", "Tiếng Anh"],
+        "D09": ["Toán", "Lịch sử", "Tiếng Anh"],
+        "D10": ["Toán", "Địa lí", "Tiếng Anh"],
+        "D13": ["Ngữ văn", "Sinh học", "Tiếng Anh"],
+        "D84": ["Toán", "GDKT&PL", "Tiếng Anh"],
+        "X02": ["Toán", "Ngữ văn", "Tin học"],
+        "X05": ["Toán", "Vật Lí", "Tin học"],
+        "X06": ["Toán", "Hóa học", "Tin học"],
+        "X09": ["Toán", "Sinh học", "Tin học"],
+        "X10": ["Toán", "GDKT&PL", "Tin học"],
+        "X13": ["Toán", "Sinh học", "GDKT&PL"],
+        "X14": ["Toán", "Địa lí", "Tin học"],
+        "X18": ["Toán", "Lịch sử", "Tin học"],
+        "X22": ["Toán", "Tiếng Anh", "Tin học"],
+        "X25": ["Ngữ văn", "Toán", "Tin học"],
+        "X26": ["Toán", "Tiếng Anh", "Tin học"],
+        "X53": ["Ngữ văn", "Lịch sử", "Tin học"],
+        "X59": ["Ngữ văn", "Vật Lí", "Tin học"],
+        "X63": ["Ngữ văn", "Hóa học", "Tin học"],
+        "X67": ["Ngữ văn", "Sinh học", "Tin học"],
+        "X71": ["Ngữ văn", "GDKT&PL", "Tin học"],
+        "X75": ["Ngữ văn", "Địa lí", "Tin học"],
+        "Y07": ["Ngữ văn", "Lịch sử", "GDKT&PL"]
+      },
+      "majors": [
+        {
+          "code": "7460117",
+          "name": "Toán tin",
+          "trend_tags": ["Dữ liệu", "Công nghệ"],
+          "trend_reason": "Nền tảng toán học, mô hình hóa và tin học phù hợp các công việc phân tích dữ liệu.",
+          "combination_codes": ["A00", "A01", "A02", "A03", "A04", "A05", "A06", "A10", "A11", "B00", "B01", "B02", "B03", "B04", "B08", "C01", "C02", "D01", "D07", "D08", "D09", "D10", "D84", "X02", "X05", "X06", "X09", "X10", "X13", "X14", "X18", "X22", "X25", "X26", "X53"]
+        },
+        {
+          "code": "7420201",
+          "name": "Công nghệ sinh học",
+          "trend_tags": ["Công nghệ sinh học", "Sức khỏe"],
+          "trend_reason": "Ứng dụng trong y sinh, nông nghiệp, môi trường và công nghệ thực phẩm.",
+          "combination_codes": ["A02", "B00", "B01", "B02", "B03", "B04", "B08", "C06", "C08", "C13", "X13", "X14", "X67"]
+        },
+        {
+          "code": "7510401",
+          "name": "Công nghệ kỹ thuật hóa học",
+          "trend_tags": ["Công nghệ hóa", "Sản xuất"],
+          "trend_reason": "Gắn với sản xuất vật liệu, hóa chất, kiểm soát chất lượng và môi trường.",
+          "combination_codes": ["A00", "A05", "A06", "A11", "B00", "C02", "C05", "C08", "D07", "X09", "X10"]
+        },
+        {
+          "code": "7320201",
+          "name": "Thông tin - Thư viện",
+          "trend_tags": ["Quản trị thông tin", "Chuyển đổi số"],
+          "trend_reason": "Nhu cầu tổ chức, số hóa và quản trị tài nguyên thông tin ngày càng tăng.",
+          "combination_codes": ["C07", "C09", "C10", "C12", "D13", "X18", "X53", "X59", "X63", "X67", "X71", "X75", "Y07"]
+        },
+        {
+          "code": "7310612",
+          "name": "Trung Quốc học",
+          "trend_tags": ["Ngoại ngữ", "Thương mại quốc tế"],
+          "trend_reason": "Kết hợp kiến thức khu vực học với nhu cầu nhân lực ngoại ngữ và giao thương.",
+          "combination_codes": ["D01", "D09", "D10", "D84", "X18", "X22", "X53", "X71", "X75", "Y07"]
+        },
+        {
+          "code": "7310501",
+          "name": "Địa lý học",
+          "trend_tags": ["GIS", "Quy hoạch"],
+          "trend_reason": "GIS, dữ liệu không gian và quy hoạch có ứng dụng trong đô thị, tài nguyên và logistics.",
+          "combination_codes": ["A04", "A06", "B02", "C09", "C13", "D10", "X14", "X75"]
+        },
+        {
+          "code": "7850101",
+          "name": "Quản lý tài nguyên và môi trường",
+          "trend_tags": ["Kinh tế xanh", "Môi trường"],
+          "trend_reason": "Cơ hội nghề nghiệp gắn với quản lý tài nguyên, ESG và phát triển bền vững.",
+          "combination_codes": ["A03", "A04", "A06", "B01", "B02", "B03", "C09", "C13", "D10", "X18", "X53", "X75"]
+        }
+      ]
+    }
+  ]
+}
