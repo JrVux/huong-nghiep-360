@@ -19,7 +19,7 @@ function App() {
       <div className="app">
         <nav className="navbar" aria-label="Điều hướng chính">
           <NavLink to="/" className="logo" end>
-            <span className="logo-mark"><img src="/logo.png" alt="HuongNghiep360" /></span>
+            <span className="logo-mark"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="HuongNghiep360" /></span>
             <span>HuongNghiep360</span>
           </NavLink>
           <div className="nav-links">
