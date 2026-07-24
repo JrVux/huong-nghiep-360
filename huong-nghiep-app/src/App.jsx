@@ -82,7 +82,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; 2026 Hướng Nghiệp 360 | Khám phá bản thân, tìm ngành nghề gọi của bạn | Công cụ hướng nghiệp toàn diện cho học sinh THPT</p>
+            <p>&copy; 2026 Hướng Nghiệp 360 | Thanh Vũ - THPT Cà Mau</p>
           </div>
         </footer>
       </div>
