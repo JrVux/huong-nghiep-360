@@ -82,7 +82,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; 2026 HuongNghiep360 | Phục vụ học sinh THPT</p>
+            <p>&copy; 2026 HuongNghiep360 | Thanh Vũ - THPT Cà Mau - 2026</p>
           </div>
         </footer>
       </div>
