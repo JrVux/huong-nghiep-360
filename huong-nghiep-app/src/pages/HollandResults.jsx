@@ -95,7 +95,7 @@ export default function HollandResults() {
               </section>
 
               <section className="warning-section result-section">
-                <h4>⚠️ Lưu ý quan trọng</h4>
+                <h4>Lưu ý quan trọng</h4>
                 <p><strong>{hollandResults.khuyen_cao}</strong></p>
               </section>
 

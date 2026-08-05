@@ -4,45 +4,62 @@
 
 .it-career-container {
   display: grid;
-  gap: 1rem;
-  max-width: 1080px;
+  gap: var(--spacing-6);
+  max-width: 72rem;
   margin: 0 auto;
+  padding: 0 var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .it-career-container {
+    padding: 0 var(--spacing-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .it-career-container {
+    padding: 0 var(--spacing-12);
+  }
 }
 
 .hero-section {
-  padding: 1.8rem 1.25rem;
-  border-radius: var(--radius-xl);
+  padding: var(--spacing-8) var(--spacing-6);
+  border: var(--border-thin);
+  border-radius: 0px;
   color: white;
-  background:
-    radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 30%),
-    linear-gradient(135deg, #0f172a 0%, #2563eb 48%, #14b8a6 100%);
-  box-shadow: var(--shadow-lg);
+  background-color: var(--foreground);
 }
 
 .hero-section h1 {
-  margin: 0 0 0.6rem;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0 0 var(--spacing-4) 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 3rem);
   line-height: 1.1;
+  letter-spacing: var(--tracking-tight);
 }
 
 .tagline {
   margin: 0;
   color: rgba(255, 255, 255, 0.88);
   font-weight: 600;
+  font-size: var(--text-lg);
 }
 
 .it-section {
   display: grid;
-  gap: 1rem;
-  padding: 1.25rem;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  background: var(--surface);
-  box-shadow: var(--shadow-md);
+  gap: var(--spacing-4);
+  padding: var(--spacing-6);
+  border: var(--border-thin);
+  border-radius: 0px;
+  background-color: var(--background);
 }
 
 .it-section h2 {
   margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  padding-bottom: var(--spacing-3);
+  border-bottom: var(--border-thin);
 }
 
 .stat-cards,
@@ -50,7 +67,7 @@
 .skills-matrix,
 .cta-steps {
   display: grid;
-  gap: 1rem;
+  gap: var(--spacing-4);
 }
 
 .stat-cards {
@@ -61,26 +78,26 @@
 .career-card,
 .skill-group,
 .step {
-  border: 1px solid rgba(148, 163, 184, 0.24);
-  border-radius: 18px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  border: var(--border-thin);
+  border-radius: 0px;
+  background-color: var(--background);
+  padding: var(--spacing-5);
 }
 
 .stat-card {
-  padding: 1rem;
   text-align: center;
 }
 
 .stat-card h3 {
-  margin: 0 0 0.35rem;
-  color: var(--primary-dark);
-  font-size: 1.5rem;
+  margin: 0 0 var(--spacing-2) 0;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
 }
 
 .stat-card p {
   margin: 0;
-  color: var(--text-soft);
+  color: var(--muted-foreground);
+  font-size: var(--text-sm);
 }
 
 .career-cards {
@@ -89,22 +106,24 @@
 
 .career-card {
   display: grid;
-  gap: 0.85rem;
-  padding: 1rem;
-}
-
-.career-card.hot {
-  border-color: rgba(37, 99, 235, 0.24);
+  gap: var(--spacing-3);
+  padding: var(--spacing-5);
 }
 
 .career-card h3 {
   margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
 }
 
 .trend {
   margin: 0;
-  color: var(--primary-dark);
+  color: var(--foreground);
   font-weight: 800;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .description,
@@ -112,7 +131,7 @@
 .warnings li,
 .it-section p,
 .it-section li {
-  color: var(--text-soft);
+  color: var(--muted-foreground);
 }
 
 .description p,
@@ -122,7 +141,7 @@
 
 .details {
   display: grid;
-  gap: 0.45rem;
+  gap: var(--spacing-2);
 }
 
 .skills-matrix {
@@ -130,24 +149,26 @@
 }
 
 .skill-group {
-  padding: 1rem;
+  padding: var(--spacing-5);
 }
 
 .skill-group h4 {
-  margin: 0 0 0.75rem;
+  margin: 0 0 var(--spacing-3) 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
 }
 
 .skill-group ul,
 .warnings,
 .resources-section ul {
   margin: 0;
-  padding-left: 1.1rem;
+  padding-left: 1.25rem;
 }
 
 .skill-group li + li,
 .warnings li + li,
 .resources-section li + li {
-  margin-top: 0.5rem;
+  margin-top: var(--spacing-2);
 }
 
 .cta-section {
@@ -159,33 +180,46 @@
 }
 
 .step {
-  padding: 1rem;
+  padding: var(--spacing-5);
   text-align: left;
 }
 
 .step-number {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: inline-grid;
   place-items: center;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: white;
+  border: var(--border-thin);
+  border-radius: 0px;
+  background-color: var(--foreground);
+  color: var(--background);
   font-weight: 800;
-  margin-bottom: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-lg);
+  margin-bottom: var(--spacing-3);
 }
 
 .step h4 {
-  margin: 0 0 0.45rem;
+  margin: 0 0 var(--spacing-2) 0;
+  font-family: var(--font-display);
 }
 
 .resources-section a {
   font-weight: 700;
+  color: var(--foreground);
+  text-decoration: none;
+  border-bottom: var(--border-thin);
+}
+
+.resources-section a:hover {
+  background-color: var(--foreground);
+  color: var(--background);
 }
 
 .warnings {
   display: grid;
-  gap: 0.5rem;
+  gap: var(--spacing-2);
+  padding: var(--spacing-5);
 }
 
 @media (max-width: 960px) {
@@ -194,5 +228,9 @@
   .skills-matrix,
   .cta-steps {
     grid-template-columns: 1fr;
+  }
+
+  .hero-section h1 {
+    font-size: clamp(1.5rem, 6vw, 2rem);
   }
 }

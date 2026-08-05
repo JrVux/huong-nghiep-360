@@ -1,29 +1,115 @@
 :root {
-  --primary-color: #2563eb;
-  --primary-dark: #1d4ed8;
-  --secondary-color: #7c3aed;
-  --accent-color: #14b8a6;
-  --success-color: #10b981;
-  --warning-color: #f59e0b;
-  --danger-color: #ef4444;
-  --light-bg: #f8fafc;
-  --surface: rgba(255, 255, 255, 0.88);
-  --surface-strong: #ffffff;
-  --dark-text: #0f172a;
-  --text-soft: #475569;
-  --light-text: #64748b;
-  --border-color: rgba(148, 163, 184, 0.24);
-  --shadow-lg: 0 24px 64px rgba(15, 23, 42, 0.12);
-  --shadow-md: 0 12px 28px rgba(15, 23, 42, 0.08);
-  --radius-xl: 24px;
-  --radius-lg: 18px;
-  --radius-md: 14px;
-  --radius-sm: 10px;
-  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  /* Design tokens for Minimalist Monochrome */
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --card: #FFFFFF;
+  --card-foreground: #000000;
+  --popover: #FFFFFF;
+  --popover-foreground: #000000;
+  --primary: #000000;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F5F5F5;
+  --secondary-foreground: #000000;
+  --muted: #F5F5F5;
+  --muted-foreground: #525252;
+  --accent: #000000;
+  --accent-foreground: #FFFFFF;
+  --destructive: #000000;
+  --destructive-foreground: #FFFFFF;
+  --border: #000000;
+  --border-light: #E5E5E5;
+  --input: #000000;
+  --ring: #000000;
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Type scale */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 2rem;      /* 32px */
+  --text-4xl: 2.5rem;    /* 40px */
+  --text-5xl: 3.5rem;    /* 56px */
+  --text-6xl: 4.5rem;    /* 72px */
+  --text-7xl: 6rem;      /* 96px */
+  --text-8xl: 8rem;      /* 128px */
+  --text-9xl: 10rem;     /* 160px */
+
+  /* Line heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Tracking */
+  --tracking-normal: 0;
+  --tracking-tight: -0.025em;
+  --tracking-tighter: -0.05em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+
+  /* Spacing */
+  --radius: 0px;
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  /* Shadows - none for monochrome */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Borders */
+  --border-hairline: 1px solid #E5E5E5;
+  --border-thin: 1px solid #000000;
+  --border-medium: 2px solid #000000;
+  --border-thick: 4px solid #000000;
+  --border-ultra: 8px solid #000000;
+
+  /* Animation */
+  --transition-fast: 100ms;
+  --transition-normal: 300ms;
+  --transition-slow: 500ms;
+
+  /* Legacy aliases for existing styles */
+  --primary-dark: var(--foreground);
+  --text-soft: var(--muted-foreground);
+  --dark-text: var(--foreground);
+  --light-text: var(--muted-foreground);
+  --surface: var(--background);
+  --surface-strong: var(--background);
+  --border-color: var(--border-light);
+  --radius-xl: 0px;
+  --radius-lg: 0px;
+  --radius-md: 0px;
+  --radius-sm: 0px;
+  --sans: var(--font-body);
+  --heading: var(--font-display);
+  --mono: var(--font-mono);
 }
 
+/* Global base styles */
 * {
   box-sizing: border-box;
 }
@@ -36,48 +122,48 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  font-family: var(--sans);
-  color: var(--dark-text);
-  background:
-    radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 28%),
-    radial-gradient(circle at top right, rgba(20, 184, 166, 0.1), transparent 24%),
-    linear-gradient(180deg, #f8fbff 0%, #f7f7fb 55%, #eef2ff 100%);
-  line-height: 1.6;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--foreground);
+  background-color: var(--background);
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      var(--border) 1px,
+      var(--border) 2px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 1px,
+      transparent 1px,
+      var(--border-light) 1px,
+      var(--border-light) 2px
+    );
+  background-size: 100% 4px, 40px 40px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 #root {
   min-height: 100vh;
 }
 
-img,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-
-button,
-input,
-textarea,
-select {
-  font: inherit;
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-::selection {
-  background: rgba(37, 99, 235, 0.18);
-  color: var(--dark-text);
+/* Noise texture overlay for paper-like quality */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
 
 /* Utility animation hooks used across pages */
@@ -125,4 +211,152 @@ a:hover {
 
 .animate-float {
   animation: floatUp 0.25s ease-out;
+}
+
+/* Typography utilities */
+.display-text {
+  font-family: var(--font-display);
+  line-height: var(--leading-tight);
+}
+
+.heading-xl {
+  font-size: var(--text-9xl);
+  font-weight: 400;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tighter);
+}
+
+.heading-lg {
+  font-size: var(--text-8xl);
+  font-weight: 400;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+}
+
+.heading-md {
+  font-size: var(--text-7xl);
+  font-weight: 400;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-normal);
+}
+
+.heading-sm {
+  font-size: var(--text-6xl);
+  font-weight: 400;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-normal);
+}
+
+.body-large {
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+}
+
+.body-small {
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  letter-spacing: var(--tracking-wide);
+}
+
+.caption {
+  font-size: var(--text-xs);
+  line-height: var(--leading-normal);
+  letter-spacing: var(--tracking-widest);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacing-6);
+  padding-right: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: var(--spacing-8);
+    padding-right: var(--spacing-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: var(--spacing-12);
+    padding-right: var(--spacing-12);
+  }
+}
+
+/* Section spacing */
+.section-spacing {
+  padding-top: var(--spacing-24);
+  padding-bottom: var(--spacing-24);
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: var(--spacing-32);
+    padding-bottom: var(--spacing-32);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-spacing {
+    padding-top: var(--spacing-40);
+    padding-bottom: var(--spacing-40);
+  }
+}
+
+/* Horizontal rule - thick black line */
+.section-divider {
+  height: var(--spacing-1);
+  background-color: var(--border);
+  border: none;
+  margin: var(--spacing-16) 0;
+}
+
+/* Focus states for accessibility */
+:focus-visible {
+  outline: 3px solid var(--border);
+  outline-offset: 3px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--muted);
+  color: var(--foreground);
+}
+
+/* Utility for inversion */
+.invert {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+/* Utility for transitions */
+.transition-fast {
+  transition: all var(--transition-fast) ease;
+}
+
+.transition-normal {
+  transition: all var(--transition-normal) ease;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+/* No animation for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -79,7 +79,7 @@ export default function MBTIResults() {
           </section>
 
           <section className="warning-section result-section">
-            <h4>⚠️ Lưu ý quan trọng</h4>
+            <h4>Lưu ý quan trọng</h4>
             <p><strong>{mbtiResults.khuyen_cao}</strong></p>
             <p>MBTI là công cụ để bạn hiểu bản thân hơn, không phải để hạn chế lựa chọn của bạn.</p>
           </section>
